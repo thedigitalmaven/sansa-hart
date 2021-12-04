@@ -1,0 +1,68 @@
+body {
+  font-family: Cooper Hewitt;
+  font-size:  16px;
+  background-color:  #004d9d;
+  color:  #fff;
+}
+h1 {
+  font-size:  24px;
+  margin-bottom: 5px;
+}
+a {
+  color: #fff;
+  text-decoration:  none;
+}
+section {
+  height:  100vh;
+  background-image: url(../img/sally_1.jpg);
+  background-size: cover;
+  /**
+  EAch background is fixed to the viewport rather than the section as we scroll
+  */
+  background-attachment:  fixed;
+}
+header {
+  position:  fixed;
+  top:  20px;
+  left:  20px;
+}
+footer {
+  position:  fixed;
+  bottom: 20px;
+  left:  20px;
+}
+footer a {
+  margin-right:  5px;
+}
+a:hover {
+  color: #ddd;
+}
+.image_2 {
+  background-image: url(../img/sally_2.jpg);
+}
+.image_3 {
+  background-image: url(../img/sally_3.jpg);
+}
+.image_4 {
+  background-image: url(../img/sally_4.jpg);
+}
+
+@media (max-width: 800px) {
+  section {
+    background-attachment: scroll;
+    height: 60vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
